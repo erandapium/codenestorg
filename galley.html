@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style/custom-styles.css" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="style/social-media-icon.css" rel="stylesheet" type="text/css">
+<link href="style/about.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="style/menu.css">
+<link rel="stylesheet" type="text/css" href="media-queries/main-media-four.css" media="screen and (max-width: 724px)">
+<title>CodeNest</title>
+<link rel="icon" href="images/Untitled-2.jpg">
+</head>
+
+<body>
+<div id="myNav" class="overlay"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content"> <a href="index.html">Home</a> <a href="galley.html">Gallery</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> </div>
+</div>
+<div class="vr-hr-holder">
+  <div class="vertical-bar"> <img src="images/menu-icon.svg" alt="" class="menu-icon" onclick="openNav()"> </div>
+  <div class="horizontal-bar"> <img src="images/codenest-logo.svg" alt="" class="logo"> <img src="images/menu-icon-2.svg" alt="" class="menu-icon-two" onclick="openNav()">
+    <nav>
+      <ul>
+        <li><a href="https://www.facebook.com"><img src="images/social-media-icon/facebook.png" alt=""></a></li>
+        <li><a href="https://www.twitter.com"><img src="images/social-media-icon/twitter.png" alt=""></a></li>
+        <li><a href="https://www.instergrame.com"><img src="images/social-media-icon/instergrame.png" alt=""></a></li>
+        <li><a href="https://www.youtube.com"><img src="images/social-media-icon/youtube.png" alt=""></a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<div class="my-latest-work-holder pills-custom">
+  <ul class="nav nav-pills filter">
+    <li class="pills-title">Filter By:</li>
+    <li role="presentation" class="active"><a href="#" data-filter="*">All</a></li>
+    <li role="presentation"><a href="#" data-filter=".web">Web Designs</a></li>
+    <li role="presentation"><a href="#" data-filter=".modling">3D Modling</a></li>
+    <li role="presentation"><a href="#" data-filter=".photo">Photo Manipulation</a></li>
+  </ul>
+</div>
+  <div class="row grid">
+    <figure class="col-sm-4 margin modling"> <a href="#"> <img src="images/gallery/extirior color correct.jpg" class="img-responsive" alt=""> </a> </figure>
+    <figure class="col-sm-4 margin modling"> <a href="#"> <img src="images/gallery/house color correct.jpg" class="img-responsive" alt=""> </a> </figure>
+    <figure class="col-sm-4 margin modling"> <a href="#"> <img src="images/gallery/bedroom color correct.jpg" class="img-responsive" alt=""> </a> </figure>
+    <figure class="col-sm-4 margin web"> <a href="#"> <img src="images/gallery/3rd_design.jpg" class="img-responsive" alt=""> </a> </figure>
+    <figure class="col-sm-4 margin web"> <a href="#"> <img src="images/gallery/adventure-web-site.jpg" class="img-responsive" alt=""> </a> </figure>
+    <figure class="col-sm-4 margin photo">
+<img src="images/gallery/gta v.jpg" alt="" class="img-responsive">
+ </figure>
+</div>
+<footer class="footer"> <span class="footer-left">2017 @Codenest.org All Rights Reserved</span> <span class="footer-right">codenestorg@gmail.com</span> </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<script src="bower_components/isotope/dist/isotope.pkgd.min.js"></script> 
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script> 
+<script>
+
+
+var $grid = $('.grid').isotope('layout');
+
+$('.filter').on( 'click', 'a', function(e) {
+	e.preventDefault();
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
+
+</script>
+</body>
+</html>

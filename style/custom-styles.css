@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: opx;
+	padding: opx;
+}
+.vr-hr-holder {
+	display: flex;
+	align-items: flex-start;
+}
+.vertical-bar {
+	width: 4%;
+	height: 100vh;
+	background-color: #2B2A2A;
+	position: fixed;
+}
+.menu-icon {
+	width: 80%;
+	height: 25px;
+	margin-left: 10%;
+	margin-top: 50vh;
+}
+.res-nav {
+	display: none;
+}
+.menu-icon:hover {
+	cursor: pointer;
+}
+.s-icon {
+	display: none;
+}
+.menu-icon-two {
+	display: none;
+}
+.horizontal-bar {
+	width: 96%;
+	height: 70px;
+	background-color: #ffde00;
+	position: fixed;
+	left: 4%;
+	z-index: 100;
+}
+.logo {
+	width: 250px;
+}

@@ -1,0 +1,39 @@
+.section-three{
+	height: 550px;
+}
+.section-three-sudiv-holder{
+	flex-direction: column;
+	align-items: center;
+	
+}
+.section-three-sub-div{
+	
+	margin-top: 10px;
+	width: 70%;
+	
+	
+}
+.sub-divs{
+	width: 80%;
+}
+.res-result{
+	display: none;
+	
+}
+.bg-img{
+	background-image: none;
+}
+.res-heading{
+	visibility: visible;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.res-youtube-btn{
+	visibility: visible;
+}
+.flex-result{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

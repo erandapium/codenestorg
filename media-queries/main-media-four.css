@@ -1,0 +1,150 @@
+.horizontal-bar {
+	height: auto;
+	width: 100%;
+	left: 0px;
+}
+.logo {
+	float: left;
+	width: 40%;
+}
+.menu-icon-two {
+	display: block;
+	width: 8%;
+	margin-top: 10px;
+	float: right;
+	margin-right: 2%;
+	margin-top: 2%;
+}
+.nav-expanded {
+	display: block;
+}
+.res-nav {
+	display: none;
+}
+.res-nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+.res-nav ul li {
+	float: none;
+	list-style: none;
+	height: 40px;
+	border-bottom: 1px solid #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: lightblue;
+	color: #ffffff;
+}
+.res-nav ul li a {
+	text-decoration: none;
+	padding-left: 20px;
+}
+.res-nav ul li ul li {
+	border: none;
+}
+.s-icon {
+	display: inline;
+	width: 30px;
+	border: none;
+}
+.s-icon img {
+	width: 30px;
+	border: none;
+	padding-top: 5px;
+}
+nav ul {
+	display: none;
+}
+.section-one-heading {
+	font-size: 50px;
+	top: 150px;
+}
+.section-one-btn {
+	top: 150px;
+}
+.section-two-heading {
+	font-size: 50px;
+}
+.vertical-bar {
+	display: none;
+}
+.section-one, .section-two, .section-three, .section-four, .section-five {
+	width: 100%;
+	margin-left: 0px;
+}
+.section-one {
+	margin-top: 0px;
+}
+.sub-divs {
+	width: 90%;
+}
+.footer {
+	width: 100%;
+	margin-left: 0px;
+}
+.text-box-holder {
+	width: 90%;
+}
+.textbox {
+	width: 90%;
+}
+.textarea {
+	width: 90%;
+}
+.footer-left {
+	float: none;
+}
+.footer-right {
+	float: none;
+}
+.footer {
+	text-align: center;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.section-three {
+	height: 550px;
+}
+.section-three-sudiv-holder {
+	flex-direction: column;
+	align-items: center;
+}
+.section-three-sub-div {
+	margin-top: 10px;
+	width: 70%;
+}
+.sub-divs {
+	width: 80%;
+}
+.res-result {
+	display: none;
+}
+.bg-img {
+	background-image: none;
+}
+.res-heading {
+	visibility: visible;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.res-youtube-btn {
+	visibility: visible;
+}
+.flex-result {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.my-latest-work-holder {
+	margin-top: 10%;
+}
+.my-latest-works {
+	width: 250px;
+	height: 250px;
+}
+.remove-margin {
+	margin-top: 0px;
+}

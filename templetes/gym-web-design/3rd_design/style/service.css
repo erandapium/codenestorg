@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* rearrange-height-of-the--first-section */
+
+
+
+/* first-section-of-service-page */
+
+.infor-holder {
+	width: 100%;
+	height: 1750px;
+}
+.content-one {
+	width: 800px;
+	height: 130px;
+	margin: auto;
+	margin-top: 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px #000000 solid;
+}
+.symbol {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding-right: 10px;
+}
+.content-one h3 {
+	color: #E91515;
+}
+.content-one p {
+	text-align: justify;
+	font-size: 16px;
+}
+.learn-more-btn {
+	width: 110px;
+	height: 40px;
+	border: none;
+	background-color: transparent;
+	position: relative;
+	left: 900px;
+	top: -50px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #E91515
+}
+.learn-more-btn:hover{
+	cursor:pointer;
+}
+.hide-and-show-div {
+	width: 800px;
+	left:200px;
+	height: 150px;
+	position: relative;
+	text-align: justify;
+	top: -30px;
+}

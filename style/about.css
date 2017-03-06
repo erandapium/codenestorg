@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	overflow-x:hidden;
+}
+.pills-custom {
+	margin-top: 150px;
+	margin-bottom: 0px;
+}
+.pills-title {
+	padding-bottom: 0px;
+	padding-right: 10px;
+	padding-top:5px;
+	font-weight:bold;
+	font-size: 18px;
+}
+.about-section-one {
+	width: 96%;
+	margin-left: 4%;
+	height: 700px;
+}
+/* Catogary */
+
+.catogary-holder {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;
+}
+.catogaries {
+	width: 30%;
+	height: 400px;
+	background-color: #000000;
+}
+/* Latest Work */
+.my-latest-work-holder {
+	width: 96%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	margin-left: 4%;
+}
+.my-latest-works {
+	width: 200px;
+	height: 200px;
+	
+	margin-top: 20px;
+}
+.grid{
+	width:96%;
+	margin-left:4%;
+}
+.margin{
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+/* Footer */
+
+.footer {
+	width: 96%;
+	height: 50px;
+	margin-left: 4%;
+	background-color: #FFDE00;
+}
+.footer-left {
+	font-size: 16px;
+	margin-left: 20px;
+	position: relative;
+	top: 15px;
+	font-weight: bold;
+}
+.footer-right {
+	font-size: 16px;
+	float: right;
+	position: relative;
+	top: 15px;
+	margin-right: 20px;
+	font-weight: bold;
+}
+.remove-margin {
+	margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+.my-latest-works {
+	width: 250px;
+	height: 250px;
+}
+}
+@media (max-width: 725px){
+	
+	.grid{
+		width:100%;
+		margin-left:0px;
+	}
+	
+	
+	
+	}
